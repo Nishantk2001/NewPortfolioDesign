@@ -279,6 +279,7 @@ figure figcaption {
 #Nkumar-main {
   width: calc(100% - 300px);
   float: right;
+  background-color: #f7f3f2;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -295,7 +296,7 @@ figure figcaption {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 1em;
   clear: both;
 }
 #Nkumar-hero .flexslider {
