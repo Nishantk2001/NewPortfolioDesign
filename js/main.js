@@ -46,8 +46,8 @@
   };
 
   var counterWayPoint = function () {
-    if ($("#colorlib-counter").length > 0) {
-      $("#colorlib-counter").waypoint(
+    if ($("#Nkumar-counter").length > 0) {
+      $("#Nkumar-counter").waypoint(
         function (direction) {
           if (direction === "down" && !$(this.element).hasClass("animated")) {
             setTimeout(counter, 400);
@@ -98,7 +98,7 @@
   };
 
   var burgerMenu = function () {
-    $(".js-colorlib-nav-toggle").on("click", function (event) {
+    $(".js-Nkumar-nav-toggle").on("click", function (event) {
       event.preventDefault();
       var $this = $(this);
 
@@ -115,11 +115,11 @@
   // Click outside of offcanvass
   var mobileMenuOutsideClick = function () {
     $(document).click(function (e) {
-      var container = $("#colorlib-aside, .js-colorlib-nav-toggle");
+      var container = $("#Nkumar-aside, .js-Nkumar-nav-toggle");
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         if ($("body").hasClass("offcanvas")) {
           $("body").removeClass("offcanvas");
-          $(".js-colorlib-nav-toggle").removeClass("active");
+          $(".js-Nkumar-nav-toggle").removeClass("active");
         }
       }
     });
@@ -127,7 +127,7 @@
     $(window).scroll(function () {
       if ($("body").hasClass("offcanvas")) {
         $("body").removeClass("offcanvas");
-        $(".js-colorlib-nav-toggle").removeClass("active");
+        $(".js-Nkumar-nav-toggle").removeClass("active");
       }
     });
   };
@@ -149,7 +149,7 @@
       if (navbar.is(":visible")) {
         navbar.removeClass("in");
         navbar.attr("aria-expanded", "false");
-        $(".js-colorlib-nav-toggle").removeClass("active");
+        $(".js-Nkumar-nav-toggle").removeClass("active");
       }
 
       event.preventDefault();
@@ -198,7 +198,7 @@
   };
 
   var sliderMain = function () {
-    $("#colorlib-hero .flexslider").flexslider({
+    $("#Nkumar-hero .flexslider").flexslider({
       animation: "fade",
       slideshowSpeed: 5000,
       directionNav: true,
