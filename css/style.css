@@ -232,7 +232,7 @@ figure figcaption {
   -o-transform: scaleX(1);
   transform: scaleX(1);
 }
-#Nkumar-aside .Nkumar-footer {
+/* #Nkumar-aside .Nkumar-footer {
   font-size: 15px;
   text-align: center;
   font-weight: 400;
@@ -269,7 +269,7 @@ figure figcaption {
   text-decoration: none;
   outline: none;
   color: #2c98f0;
-}
+} */
 
 .container-wrap {
   max-width: 1170px;
@@ -279,7 +279,7 @@ figure figcaption {
 #Nkumar-main {
   width: calc(100% - 300px);
   float: right;
-  background-color: #f7f3f2;
+  background-color: #fafafa;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -385,7 +385,7 @@ figure figcaption {
   }
 }
 #Nkumar-hero .flexslider .slider-text > .slider-text-inner h2 {
-  font-size: 18px;
+  font-size: 21px;
   line-height: 1.5;
   margin-bottom: 30px;
   font-weight: 300;
@@ -485,7 +485,7 @@ body.offcanvas .Nkumar-nav-toggle {
 .Nkumar-services,
 .Nkumar-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block;
@@ -532,7 +532,7 @@ body.offcanvas .Nkumar-nav-toggle {
 .heading-meta {
   margin-bottom: 15px;
   display: block;
-  font-size: 10px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
@@ -793,7 +793,7 @@ body.offcanvas .Nkumar-nav-toggle {
 }
 .services .icon2 {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .services .icon2 i {
   font-size: 30px;
@@ -1205,7 +1205,7 @@ body.offcanvas .Nkumar-nav-toggle {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2c98f0;
+  backdrop-filter: blur(4px);
   opacity: 0;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
