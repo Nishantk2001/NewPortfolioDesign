@@ -1,3 +1,19 @@
+// Emailjs Connectivity
+
+function SendMail() {
+  const success = document.getElementById("success");
+  const danger = document.getElementById("danger");
+  var params = {
+    from_name: document.getElementById("name").value,
+    emailid: document.getElementById("emailid").value,
+    subject: document.getElementById("subject").value,
+    msgContent: document.getElementById("msgContent").value,
+  };
+  emailjs
+    .send("service_mnd8f5f", "template_bxoy2nr", params)
+    .then(function (res) {});
+}
+
 (function () {
   "use strict";
 
