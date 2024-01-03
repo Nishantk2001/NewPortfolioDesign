@@ -1,5 +1,11 @@
 // Emailjs Connectivity
+var form = document.getElementById("contactForm");
+var message = document.getElementById("success");
 
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  message.style.visibility = "visible";
+});
 function SendMail() {
   var params = {
     from_name: document.getElementById("name").value,
@@ -10,7 +16,6 @@ function SendMail() {
   emailjs
     .send("service_mnd8f5f", "template_bxoy2nr", params)
     .then(function (res) {});
-  alert("Your Message will be send");
 }
 
 (function () {

@@ -1833,3 +1833,8 @@ body.offcanvas .Nkumar-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+
+.success {
+  color: #2c98f0;
+  margin: auto;
+}
